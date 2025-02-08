@@ -1,0 +1,8 @@
+from math import sqrt
+n = int(input('Digite um número: '))
+dobrop = n * 2
+triplop = n * 3
+raiz2p = sqrt(n)
+print(f'O dobro de {n} é {dobrop}')
+print(f'O triplo de {n} é {triplop}')
+print(f'A raiz quadrada de {n} é {raiz2p:.2f}')
