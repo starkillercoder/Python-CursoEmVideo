@@ -1,11 +1,1 @@
-palavras = ('amar', 'jogar', 'sistemas')
-p = l = 0
-while True:
-  if palavras[p][l].upper() in 'AEIOU':
-    print(palavras[p][l], end=' ')
-  l += 1
-  if l == len(palavras[p]):
-    p += 1
-    l = 0
-  if p == len(palavras):
-    break
+print('Olá Mundo!')
