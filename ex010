@@ -1,0 +1,3 @@
+r = float(input('Quanto dinheiro você tem na carteira: R$'))
+d = r / 5.81
+print(f'Com R${r} você poderá comprar ${d:.2f}')
