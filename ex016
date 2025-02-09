@@ -1,3 +1,4 @@
-nfloat = float(input('Digite um número: '))
-nint = int(nfloat)
-print(f'A parte inteira de {nfloat} é {nint}.')
+from math import trunc
+n = float(input('Digite um número: '))
+nint = trunc(n)
+print(f'A parte inteira de {n} é {nint}.')
