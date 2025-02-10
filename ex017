@@ -1,0 +1,6 @@
+from math import hypot
+c1 = float(input('Valor do cateto: '))
+c2 = float(input('Valor do cateto: '))
+h = hypot(c1, c2)
+print(f'O triângulo retângulo com os catetos valendo {c1} e {c2}, tem a hipotenusa'
+      f' no valor de {h}')
