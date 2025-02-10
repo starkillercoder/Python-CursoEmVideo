@@ -1,0 +1,7 @@
+v = float(input('Qual a distância da viagem em quilômetros? '))
+vc = v * 0.50
+vl = v * 0.45
+if v <= 200:
+    print(f'O custo da passagem será de R${vc:.2f}.')
+else:
+    print(f'O custo da passagem será de R${vl:.2f}.')
