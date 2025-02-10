@@ -1,0 +1,9 @@
+from math import radians, sin, cos, tan
+a = float(input('Digite um ângulo: '))
+ar = radians(a)
+s = sin(ar)
+c = cos(ar)
+t = tan(ar)
+print(f'O ângulo de {a} tem o seno de {s:.2f}'
+      f'\nO ângulo de {a} tem o cosseno de {c:.2f}'
+      f'\nO ângulo de {a} tem a tangente de {t:.2f}')
