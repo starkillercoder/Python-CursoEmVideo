@@ -1,0 +1,6 @@
+k = int(input('Qual a velocidade do carro? '))
+m = (k-80) * 7
+if k <= 80:
+    print('Tenha um bom dia! Dirija com segurança!')
+else:
+    print(f'Seu carro foi multado! A multa é de R${m}')
