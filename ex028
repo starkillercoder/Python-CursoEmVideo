@@ -1,0 +1,10 @@
+from random import randint
+print('-=' * 30)
+print(f'{'\33[35m'}Vou pensar em um número tente adivinhar{'\33[m'}')
+print('-=' * 30)
+rc = randint(0, 5)
+rj = int(input('Em qual número eu pensei? '))
+if rc == rj:
+    print(f'Você acertou =(.')
+else:
+    print(f'Você errou =), na verdade pensei no número {rc}!')
